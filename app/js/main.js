@@ -103,7 +103,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 function PersonTemplate(data) {
-  return "\n  <main>\n    <div class=\"character\">\n      <li>" + data.Name + " is " + data.Job + ".  " + data.Gender + " likes to " + data.Hobby + ".  " + data.Gender + " is dating " + data.LoveInterest + ".  \n      </li>\n      <img src=\"" + data.picture + "\"><hr>\n    </div>\n  </main>\n  ";
+  return "\n  <main>\n    <div class=\"character\">\n      <li>" + data.Name + " is " + data.Job + ".  " + data.Gender + " likes to " + data.Hobby + ".  " + data.Gender + " is " + data.LoveInterest + ".  \n      </li>\n      <img src=\"" + data.picture + "\"><hr>\n    </div>\n  </main>\n  ";
 }
 
 exports["default"] = PersonTemplate;

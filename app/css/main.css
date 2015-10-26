@@ -2018,11 +2018,18 @@
 .fa-fonticons:before {
   content: ""; }
 
+body {
+  background-color: red;
+  background-image: -webkit-linear-gradient(bottom, red, green);
+  background-image: linear-gradient(to top,red, green); }
+
 main {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background: #F0DB00;
+  background-color: pink;
+  background-image: -webkit-linear-gradient(bottom, pink, purple);
+  background-image: linear-gradient(to top,pink, purple);
   padding: 10px;
   border: 10px solid #D67A22;
   border-radius: 50px;
@@ -2032,15 +2039,18 @@ main {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  background: #008C36;
+  background-color: indigo;
+  background-image: -webkit-linear-gradient(bottom, indigo, lightblue);
+  background-image: linear-gradient(to top,indigo, lightblue);
   border: 10px solid #192a50;
   border-radius: 33px;
   padding: 10px; }
 
 li {
   float: right;
-  width: 500px;
-  color: gold; }
+  width: 400px;
+  color: navy;
+  transition: all 0.3s; }
 
 img {
   border: 1px solid #008C36;

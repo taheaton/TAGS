@@ -2,13 +2,14 @@
 @import "font-awesome";
 
   body {
+    @include linear-gradient(to top, red, green);
 }
 
 main {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  background: #F0DB00; 
+  @include linear-gradient(to top, pink, purple); 
   padding: 10px;
   border: 10px solid #D67A22;
   border-radius: 50px;
@@ -19,15 +20,16 @@ main {
   max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  background: #008C36; 
+  @include linear-gradient(to top, indigo, lightblue); 
   border: 10px solid #192a50;
   border-radius: 33px;
   padding: 10px;
 }
 li {
   float: right;
-  width: 500px;
-  color: gold;
+  width: 400px;
+  color: navy;
+  transition: all 0.3s;
 }
 
 
