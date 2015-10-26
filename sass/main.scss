@@ -1,6 +1,58 @@
 @import "bourbon";
 @import "font-awesome";
 
-body {
-  background: #e2ebf3;
+  body {
 }
+
+main {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #F0DB00; 
+  padding: 10px;
+  border: 10px solid #D67A22;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 5px rgba(68,85,102,0.5);
+}
+
+.character {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  background: #008C36; 
+  border: 10px solid #192a50;
+  border-radius: 33px;
+  padding: 10px;
+}
+li {
+  float: right;
+  width: 500px;
+  color: gold;
+}
+
+
+  img {
+    border: 1px solid #008C36;
+    border-radius: 50px;
+    max-height: 350px;
+    max-width: 350px;
+    }
+    #container {
+    width: 502px;
+    height: 284px;
+    border: 1px solid #008C36;
+    float: right;
+      }
+h1 {
+  font-size: 16pt;
+  text-align: center;
+}
+h2 {
+  font-size: 14pt;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+
